@@ -3,9 +3,9 @@
 ---
 
 ## Group Members
-- **Seshan Sandeepa** – itbin-2312-0024 – DevOps Engineer / Release Manager / Frontend Developer  
-- **Wathsala Kithulgala** – itbin-2312-0025 – Backend Developer  
-- **Lishani Samarakoon** – itbin-2312-0005 – Frontend Developer (Application & Payment Module)  
+- **Hansindu Thilakarathne** – ITBNM-2211-0191 – DevOps Engineer / Release Manager / Frontend Developer
+- **Kavindra Reshan** – ITBNM-2211-0207 – Backend Developer  
+- **Amantha Gimhana** – ITBNM-2211-0166 – Frontend Developer (Application & Payment Module)  
 
 ##  Project Overview
 
@@ -184,25 +184,6 @@ This setup helped us detect errors early and ensure that only working code is de
 The project is connected to Vercel for automatic production deployment.
 ---
 
-##  Dockerfile & Compose References
-
-## Project Structure
-### Backend Dockerfile
-https://github.com/Lishani-Samarakoon/SLTB-website-Season-Ticket-/blob/main/server/Dockerfile  
-
-The project is divided into two main parts:
-### Frontend Dockerfile
-https://github.com/Lishani-Samarakoon/SLTB-website-Season-Ticket-/blob/main/Dockerfile  
-
-* The **client** folder contains the React frontend application.
-* The **server** folder contains the Node.js and Express backend.
-* The **.github/workflows** folder contains the CI/CD configuration files.
-### Docker Compose Configuration
-https://github.com/Lishani-Samarakoon/SLTB-website-Season-Ticket-/blob/main/docker-compose.yml  
-
-This structure keeps the frontend and backend clearly separated and easier to maintain.
-The Docker implementation demonstrates:
-
 ## How to Run the Project Locally
 - Lightweight Alpine base images  
 - Multi-stage frontend build  
@@ -265,7 +246,6 @@ Git
 
 Clone Repository
 
-git clone https://github.com/Lishani-Samarakoon/SLTB-website-Season-Ticket-.git
 cd SLTB-website-Season-Ticket-
 
 Run Backend
@@ -340,8 +320,6 @@ Health check endpoint implemented
 1. Clone the repository
 Separation of frontend & backend services
 
-   git clone [https://github.com/Lishani-Samarakoon/SLTB-website-Season-Ticket-.git](https://github.com/Lishani-Samarakoon/SLTB-website-Season-Ticket-.git)
-Performance Optimization
 
 2. Navigate into the project folder
 Multi-stage frontend Docker build
